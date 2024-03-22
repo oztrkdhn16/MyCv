@@ -1,0 +1,36 @@
+.skills__container{
+    display: flex;
+    justify-content: center;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 1.875rem;
+}
+
+
+.button {
+    background-color: var(--container-color);
+    border: none;
+    color: var(--text-color);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: var(--h4-font-size);
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: var(--border-radius);
+  }
+  
+.button:hover {
+    background-color: var(--first-color);
+}
+  
+.button-shadow {
+    box-shadow: var(--shadow);
+    transition: 0.3s;
+    font-weight: var(--font-bold);
+}
+  
+.button-shadow:hover {
+    box-shadow: var(--shadow);
+    color: var(--container-color);
+}
